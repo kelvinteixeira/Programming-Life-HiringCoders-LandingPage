@@ -33,12 +33,7 @@ body {
 }
 
 .box-title {
-	background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
-	color: #bdc3c7;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-
+	color: white;
 	text-align: center;
 	font-size: 50px;
 	margin-bottom: 20px;
@@ -50,11 +45,6 @@ body {
 	font-weight: bold;
 	color: white;
 	margin-bottom: 20px;
-	background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
-	color: #bdc3c7;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 .box-input {
@@ -152,18 +142,9 @@ body {
 	font-size: 15px;
 	font-weight: bold;
 	color: white;
-	background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
-	color: #bdc3c7;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 
 #timer {
-	background-image: linear-gradient(to bottom, #8e9eab, #eef2f3);
-	color: #bdc3c7;
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	color: #ffffff;
 	font-size: 50px;
 }
