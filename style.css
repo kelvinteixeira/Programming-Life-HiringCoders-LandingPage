@@ -62,6 +62,10 @@ body {
 	outline: none;
 }
 
+::-webkit-input-placeholder {
+	color: black;
+}
+
 .box-input:focus {
 	border: 2px solid rgb(0, 26, 255);
 	background-image: linear-gradient(to right, #8e9eab, #eef2f3);
