@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imersão Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheetFont" href="<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+</head>
+<body>
+  
+  <form class="box">
+    <h1 class="box-title">Programming Life</h1>
+
+    <p class="box-subtitle">Cadastre-se agora para receber 50% de desconto e os primeiros materias oferecidos pela maior imersão de Javascript, HTML e CSS do brasil, antecipadamente!</p>
+
+    <input id="name" class="box-input" type="text" placeholder="Nome completo">
+    <span id="spanName" class="msg-error">Por favor preencha o campo</span>
+
+    <input id="telefone" class="box-input" type="text" placeholder="Telefone" onblur="mascaraTelefone(this)">
+    <span id="spanTelefone" class="msg-error">Por favor insira um telefone valido</span>
+
+    <input id="email" class="box-input" type="email" placeholder="Email">
+    <span id="spanEmail" class="msg-error">Por favor insira um email valido</span>
+
+    <button onclick="submitForm()" class="box-button" type="button">Enviar</button>
+
+    <span id="msgSuccess"></span>
+    <span id="msgError"></span>
+
+    <div id="boxTimer" class="box-timer">
+      <div class="box-subtitle-timer">Oferta encerra em:</div>
+      <div id="timer"></div>
+    </div>
+  </form>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
