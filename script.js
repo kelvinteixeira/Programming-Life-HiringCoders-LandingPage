@@ -85,7 +85,7 @@ function validacaoEmail(email) {
 function submitForm(e) {
   if (nomeValid && telefoneValid && emailValid) {
 
-    msgSuccess.innerHTML = 'Parabéns por mais um passo dado ao seu futuro. Em breve você receberá o material necessário para dar inicio a sua jornada!';
+    msgSuccess.innerHTML = 'Cadastro efetuado com sucesso!';
     msgSuccess.setAttribute('style', 'display: block');
     msgError.setAttribute('style', 'display: none');
     msgError.innerHTML = '';
