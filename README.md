@@ -3,9 +3,9 @@
 
 # Sobre o projeto
 
-Progamming life é uma aplicação simples em web construída durante a edição 2021 Hiring Coders), evento organizado pela [GamaAcademy](https://www.gama.academy/ "Site da Gama Academy") e pela. [VTEX](https://vtex.com/br-pt/ "Site da VTEX")  
+Progamming life é uma aplicação simples em web construída durante a edição 2021 Hiring Coders, evento organizado pela [GamaAcademy](https://www.gama.academy/ "Site da Gama Academy") e [VTEX](https://vtex.com/br-pt/ "Site da VTEX")  
  
-A aplicação consiste em uma landing page de ofertas de cursos de progamação, onde os dados são armazenados no localStorage apenas com intuito de apredizagem.
+A aplicação consiste em uma landing page para se cadastrar e receber ofertas de cursos de progamação, onde os dados são armazenados no localStorage apenas com intuito de apredizagem.
 
 # Tecnologias utilizadas
 ## Front end
