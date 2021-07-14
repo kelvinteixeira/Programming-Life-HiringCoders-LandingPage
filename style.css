@@ -29,6 +29,50 @@ body {
 	box-shadow: 1px 1px 10px 1px white;
 	padding: 30px;
 }
+
+.container-title {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 20px;
+
+}
+
+
+.container-subtitle {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	color: white;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 610px) {
+	.container-title {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 400px) {
+	.container-title {
+		font-size: 22px;
+	}
+
+	.container-subtitle {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 300px) {
+	.container-title {
+		font-size: 18px;
+	}
+
+	.container-subtitle {
+		font-size: 10px;
+	}
+}
+
 .box {
 	display: flex;
 	flex-direction: column;
@@ -55,20 +99,6 @@ body {
 	cursive;
 }
 
-.container-title {
-	color: white;
-	text-align: center;
-	font-size: 50px;
-	margin-bottom: 20px;
-}
-
-.container-subtitle {
-	text-align: center;
-	font-size: 17px;
-	font-weight: bold;
-	color: white;
-	margin-bottom: 20px;
-}
 
 .box-input {
 	border: 2px solid white;
@@ -158,7 +188,8 @@ body {
 	align-items: center;
 	margin-top: 30px;
 	border: 2px solid white;
-	width: 350px;
+	max-width: 350px;
+	width: 80%;
 	border-radius: 12px;
 	background-image: linear-gradient(to left, #ed213a, #93291e);
 }
