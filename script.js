@@ -124,7 +124,7 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-  let duration = 3599 ;
+  let duration = 1199 ;
   let display = document.getElementById('timer')
 
   startTimer(duration, display);

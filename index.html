@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,36 +8,45 @@
   <title>Progamming Life</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheetFont" href="<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="/assets/favicon.png" />
-  
+
 </head>
+
 <body>
-  
-  <form class="box">
-    <h1 class="box-title">Programming Life</h1>
 
-    <p class="box-subtitle">Cadastre-se agora para receber promoções exclusivas de cursos de Javascript, React,e Angular, oferecidos pela maior academia do brasil. Descontos de até 50%.</p>
+  <div class="container">
+    <h1 class="container-title">Programming Life</h1>
 
-    <input id="name" class="box-input" type="text" placeholder="Nome completo">
-    <span id="spanName" class="msg-error">Por favor preencha o campo</span>
+    <p class="container-subtitle">Quer descorir onde encontrar os melhores e mais baratos cursos de Javascript, React,e
+      Angular do Brasil?</p>
 
-    <input id="telefone" class="box-input" type="text" placeholder="Telefone" onblur="mascaraTelefone(this)">
-    <span id="spanTelefone" class="msg-error">Por favor insira um telefone valido</span>
+    <form class="box">
 
-    <input id="email" class="box-input" type="email" placeholder="Email">
-    <span id="spanEmail" class="msg-error">Por favor insira um email valido</span>
+      <h3 class="box-title" >Fique por dentro das nossas ofertas!</h3>
 
-    <button onclick="submitForm()" class="box-button" type="button">Enviar</button>
+      <input id="name" class="box-input" type="text" placeholder="Nome">
+      <span id="spanName" class="msg-error">Por favor preencha o campo</span>
 
-    <span id="msgSuccess"></span>
-    <span id="msgError"></span>
+      <input id="telefone" class="box-input" type="text" placeholder="Telefone" onblur="mascaraTelefone(this)">
+      <span id="spanTelefone" class="msg-error">Por favor insira um telefone valido</span>
 
+      <input id="email" class="box-input" type="email" placeholder="Email">
+      <span id="spanEmail" class="msg-error">Por favor insira um email valido</span>
+
+      <button onclick="submitForm()" class="box-button" type="button">Enviar</button>
+
+      <span id="msgSuccess"></span>
+      <span id="msgError"></span>
+
+    </form>
     <div id="boxTimer" class="box-timer">
-      <div class="box-subtitle-timer">Essa oferta expira em:</div>
+      <div class="box-subtitle-timer">Chuva de ofertas começa em:</div>
       <div id="timer"></div>
     </div>
-  </form>
+  </div>
 
   <script src="script.js" defer></script>
 </body>
+
 </html>
