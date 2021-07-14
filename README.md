@@ -2,6 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/kelvinteixeira/LandingPage-HiringCoders/blob/main/LICENSE) 
 
 # Sobre o projeto
+https://progamminglife.netlify.app/
 
 Progamming life é uma aplicação simples em web construída durante a edição 2021 Hiring Coders, evento organizado pela [GamaAcademy](https://www.gama.academy/ "Site da Gama Academy") e [VTEX](https://vtex.com/br-pt/ "Site da VTEX")  
  
