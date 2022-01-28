@@ -8,6 +8,8 @@ Programming life é uma aplicação simples em web construída durante a ediçã
  
 A aplicação consiste em uma landing page para se cadastrar e receber ofertas de cursos de programação, onde os dados são armazenados no localStorage apenas com intuito de aprendizagem.
 
+#### <div align="right">- Projeto Finalizado🟢 <div>
+
 # Tecnologias utilizadas
 ## Front end
 - HTML 
